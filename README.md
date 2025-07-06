@@ -18,16 +18,12 @@ Valordle is a Valorant-themed Wordle clone built with React and Vite. Instead of
 
 Here's a small sample of valid Valordle words:
 
-- `jett`
 - `plant`
 - `spike`
 - `ghost`
 - `viper`
 - `bucky`
-- `duels`
-- `nadez`
-- `crack`
-- `peeks`
+- `boost`
 
 (The full list is in the `src/words.js` file.)
 
