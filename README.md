@@ -24,9 +24,6 @@ Here's a small sample of valid Valordle words:
 - `viper`
 - `bucky`
 - `boost`
-
-(The full list is in the `src/words.js` file.)
-
 ---
 
 ## 🚀 Getting Started
