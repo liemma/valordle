@@ -1,12 +1,46 @@
-# React + Vite
+# 🎮 Valordle
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Valordle is a Valorant-themed Wordle clone built with React and Vite. Instead of everyday words, players guess 5-letter words from the world of Valorant — including agents, maps, abilities, and memes from the game. It’s a fun twist on the classic Wordle game for Valorant fans!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🎯 Guess a 5-letter Valorant-themed word in 6 tries
+- 🔄 Feedback for correct letters in correct and incorrect positions (like Wordle)
+- 🧠 Custom word list with gaming/Valorant flavor
+- 📋 Shareable emoji-based results
+- 🔁 Play again button to restart the game
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🕹 Example Valid Words
+
+Here's a small sample of valid Valordle words:
+
+- `jett`
+- `plant`
+- `spike`
+- `ghost`
+- `viper`
+- `bucky`
+- `duels`
+- `nadez`
+- `crack`
+- `peeks`
+
+(The full list is in the `src/words.js` file.)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have **Node.js** and **npm** installed.
+
+### Clone the repository
+
+```bash
+git clone https://github.com/liemma/valordle.git
+cd valordle
