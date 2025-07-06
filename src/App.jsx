@@ -24,7 +24,8 @@ const WORDS = [
   'plant', // spike plant again
   'macro', // big picture strat
   'smurf',  // alt account
-  'reyna'
+  'reyna',
+  'bucky' // bucky shotgun
 ];
 
 
