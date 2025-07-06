@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  background-color: #000000; /* Pure black */
+  color: white;
+  height: 100%;
+  width: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Use height instead of min-height */
+  width: 100vw;  /* Ensure full screen width */
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Header */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+/* Wordle board */
+.board {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.game-over {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00ff7f;
+}
+
+.restart-btn {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: #538d4e;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.restart-btn:hover {
+  background-color: #6aaa64;
+}
+
+
+/* Each guess row */
+.line {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+/* Tile styling */
+.tile {
+  width: 64px;
+  height: 64px;
+  border: 2px solid #3a3a3c;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  background-color: #121213;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+/* Tile colors */
+.correct {
+  background-color: #538d4e;
+  border-color: #538d4e;
+  color: white;
+}
+
+.present {
+  background-color: #b59f3b;
+  border-color: #b59f3b;
+  color: white;
+}
+
+.absent {
+  background-color: #3a3a3c;
+  border-color: #3a3a3c;
+  color: white;
+}
